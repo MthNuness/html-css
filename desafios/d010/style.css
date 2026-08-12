@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+    /* Local para desenvolver o Header*/
+
+    body{
+        margin: auto;
+        background-color: #84e1ad;
+    }
+    header{
+        background-image: linear-gradient(to bottom, #3cd781, #185433);
+    }
+
+    header > h1{
+        margin: 0px;
+        padding: 20px 0px 12px 0px;
+        text-align: center;
+        color: white;
+    }
+
+    header > p{
+        text-align: center;
+        color: rgb(185, 185, 185);
+        font-size: 16px;
+        padding: 10px 0px 12px 0px;
+    }
+
+    header > nav > a{
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+    }
+
+    header > nav{
+        padding: 0px 0px 8px 8px;
+    }
+
+    header > nav > a:hover{
+        background-color: #185433;
+    }
+
+
+    /*Local para desenvolver o main*/
+
+
+    main{
+        background-color: white;
+        width: 1500px;
+        margin: auto;
+    }
+
+    main > article > h1{
+        color: #1a5c38;
+        margin: 0px 0px 20px 0px;
+        padding: 0px 0px 0px 15px;
+    }
+
+    main > article > p{
+        margin: 16px 15px 16px 15px;
+    }
+
+    main > article > section > h2{
+        color: #1a5c38;
+        margin: 20px 0px 20px 15px;
+        background-image: linear-gradient(to right, #84e1ac8f, white);
+    }
+
+    main > article > section > p{
+        margin: 16px 15px 16px 15px;
+        font-size: 18px;
+    }
+
+    main > article > section > p > span{
+        color: #1f6e43;
+        font-weight: bold;
+    }
+
+    main > article > section > picture{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+    }
+
+    main > article > div.conteudo{
+        height: 900px;
+        width: 1500px;
+        background-color: #185433;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main > article > div > iframe{
+        height: 800px;
+        width: 1200px;
+    }
+
+    main > p{
+        margin: 0px 0px 0px 0px;
+        padding: 10px 0px 10px 30px;
+    }
+
+
+    /*Local para desenvolver o footer*/
+
+    
+    footer{
+        background-color: white;
+        width: 1500px;
+        margin: auto;
+    }
+
+    footer > h2{
+        margin: 0px 20px 0px 20px;
+        padding: 10px 20px 10px 20px;
+        background-color: #2fa866;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    footer > article{
+        margin: 0px 20px 0px 20px;
+        padding: 10px 20px 10px 20px;
+        background-color: #c5ebd6;
+        font-size: 18px;
+    }
+
+    footer > article > p > a{
+        text-decoration: none;
+        color: #185433;
+        font-weight: bold;
+        font-size: 18px;
+    }
