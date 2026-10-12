@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+table{
+    width: 700px;
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+}
+
+caption{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    padding: 30px;
+    font-size: 1.5em;
+}
+
+thead{
+    background-color: rgb(172, 169, 169);
+}
+
+thead th{
+    padding: 20px;
+    position: sticky;
+    top: -1px;
+    background-color: rgb(172, 169, 169);
+}
+
+th#UF{
+    width: 225px;
+}
+
+th#P{
+    width: 225px;
+}
+
+th#C{
+    width: 125px;
+}
+
+tbody{
+    
+}
+
+tbody th, tbody td{
+    padding: 16px;
+}
+
+tbody  tr:nth-child(2n){
+    background-color: (172, 169, 169);
+}
+
+tfoot{
+    background-color: rgb(172, 169, 169);
+}
+
+th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+}

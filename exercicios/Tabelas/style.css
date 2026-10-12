@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+table{
+    width: 300px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+tr.amarelo{
+    background-color: yellow;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+td.laranja{
+    background-color: orange;
+}
